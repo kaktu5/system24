@@ -39,10 +39,10 @@
 	/* text colors */
 	--txt-dark: var(--bg-0); /* color of dark text on colored backgrounds. */
 	--txt-link: var(--purple); /* color of links. */
-	--txt-0: oklch(90% 0 0); /* color of bright/white text. */
-	--txt-1: oklch(80% 0 0); /* main text color. */
-	--txt-2: oklch(60% 0 0); /* color of secondary text like channel list. */
-	--txt-3: oklch(40% 0 0); /* color of muted text. */
+	--txt-0: #c0caf5; /* color of bright/white text. */
+	--txt-1: var(--txt-0); /* main text color. */
+	--txt-2: var(--txt-0); /* color of secondary text like channel list. */
+	--txt-3: #8f96b7; /* color of muted text. */
 
 	/* accent colors */
 	--acc-0: var(--purple); /* main accent color. */
